@@ -1,0 +1,9 @@
+<div class="indexPost">
+  {{#link-to 'article' article.id}}
+  <div class="indexIntro">
+    <h4>{{article.title}}</h4>
+    <p><em>By: {{article.author}}</em></p>
+  </div>
+  <img src={{article.picture}}>
+  {{/link-to}}
+</div>

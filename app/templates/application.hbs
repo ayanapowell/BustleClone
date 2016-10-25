@@ -1,0 +1,54 @@
+<header>
+  <div class="nav">
+    <div class="row">
+      {{nav-button}}
+      <div class="col-md-4">
+        {{#link-to 'index'}}<img class="img-fluid" src="https://www.jlgnf.org/wp-content/uploads/FullLogo_horizontal.png" alt="Responsive image">{{/link-to}}
+      </div>
+      <div class="icons col-md-4">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-search" aria-hidden="true"></i>
+      </div>
+    </div>
+  </div>
+  <div class="navContents">
+    <ul class="sidebar-nav">
+      <li class="close pull-left">{{close-nav}}</li>
+      <li class="sidebar-brand">
+        <a href="#">{{#link-to 'index'}}HOMEPAGE{{/link-to}}</a>
+      </li>
+      <li>
+        <a href="#">FASHION & ENTERTAINMENT</a>
+      </li>
+      <li>
+        <a href="#">NEWS</a>
+      </li>
+      <li>
+        <a href="#">ENTERTAINMENT</a>
+      </li>
+      <li>
+        <a href="#">Events</a>
+      </li>
+      <li>
+        <a href="#">About</a>
+      </li>
+      <li>
+        <a href="#">Services</a>
+      </li>
+      <li>
+        <a href="#">Contact</a>
+      </li>
+      <!-- <li class="adminNav">
+        {{#link-to 'admin'}}<i class="fa fa-cogs" aria-hidden="true"></i><a href="#">  ADMIN</a>{{/link-to}}
+      </li> -->
+    </ul>
+  </div>
+</header>
+  {{outlet}}
+<hr>
+<footer>
+  <h4>Thanks, Ember!</h4>
+</footer>
